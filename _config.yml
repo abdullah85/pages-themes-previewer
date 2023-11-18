@@ -22,7 +22,7 @@ title: A Github Pages Themes Previewer
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
    Preview themes supported by Github Pages.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/pages-themes-viewer" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: abdullaak7
 github_username:  abdullah85
