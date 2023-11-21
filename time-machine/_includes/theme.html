@@ -1,0 +1,13 @@
+<div class="dropdown">
+  <a class="dropbtn" style="cursor: pointer; color: #fff; padding: 3pt; border-radius: 3pt">Theme</a>
+  <div class="dropdown-content">
+    {% for theme in site.data.themes %}
+      {% if theme.name == "time-machine" %}
+        <a href="/{{ theme.url }}"><b>{{ theme.name }}</b></a>
+      {% else %}
+        <a href="/{{ theme.url }}">{{ theme.name }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+

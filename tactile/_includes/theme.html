@@ -1,0 +1,13 @@
+<div class="dropdown">
+  <a class="dropbtn" style="color: #111; cursor: pointer">Theme</a>
+  <div class="dropdown-content">
+    {% for theme in site.data.themes %}
+      {% if theme.name == "tactile" %}
+        <a href="/{{ theme.url }}" style="font-weight: bold">{{ theme.name }}</a>
+      {% else %}
+        <a href="/{{ theme.url }}">{{ theme.name }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+

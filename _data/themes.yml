@@ -1,0 +1,6 @@
+- name: minima
+  url: ./pages-themes-previewer/
+- name: time-machine
+  url: ./pages-themes-previewer/time-machine/
+- name: tactile
+  url: ./pages-themes-previewer/tactile/
