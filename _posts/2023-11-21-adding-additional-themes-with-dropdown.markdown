@@ -38,8 +38,8 @@ Do stay tuned for further updates on posts dedicated to design.
 + Create a new Jekyll site for each theme required (we created `time-machine`, `tactile` for now)
 
 ```
-  $ bundle exec jekyll new --blank time-machine
-  $ bundle exec jekyll new --blank tactile
+  $ bundle exec jekyll new time-machine
+  $ bundle exec jekyll new tactile
 ```
 
 + As per [previous post][initialize-gh-pages], modify the Gemfiles for each site created above,

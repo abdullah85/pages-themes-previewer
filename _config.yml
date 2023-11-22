@@ -26,7 +26,7 @@ baseurl: "/pages-themes-previewer" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: abdullaak7
 github_username:  abdullah85
-keep_files: ['pages-themes-previewer/time-machine', 'pages-themes-previewer/tactile', 'time-machine', 'tactile']
+keep_files: ['time-machine', 'tactile']
 
 google_analytics: G-GYW3W7P7XR
 
